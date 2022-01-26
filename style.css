@@ -224,15 +224,50 @@ section{
     font-size: 1.5em;
     font-weight: 400;
 }
+@media(max-width:1023px)
+{
+    header{
+        padding: 10px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+        font-size: 1.5em;
+        
+        
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main h2{
+        font-size: 1em;
+    }
+    .main h3{
+        font-size: 1.2em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+        }
+}
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
 
+    .main h2{
+        font-size: 0.8em;
+    }
 
-
-
-
-
-
-
-
-
-
+    .main h3{
+        font-size: 1.3em;
+    }
+    header{
+        padding-left: 18px;
+        font-size: 0.7em;
+    }
+    
+}
 
